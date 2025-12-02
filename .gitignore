@@ -1,0 +1,24 @@
+# Ignore Python virtual environments
+medalert_env/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore OS junk
+.DS_Store
+
+# Ignore environment variables
+.env
+
+# Ignore large datasets
+sepsis_csv_full.zip
+sepsis_csv_dataset/
+
+# Ignore PyTorch cache files
+*.ptl
+*.pth
+
+# Ignore logs
+*.log
