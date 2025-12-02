@@ -1,5 +1,6 @@
 streamlit
 numpy
 pandas
-matplotlib
-torch
+plotly
+torch==2.2.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
